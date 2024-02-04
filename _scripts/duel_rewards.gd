@@ -240,7 +240,7 @@ func get_card_rewards():
 				pool_for_reward_3 = npc_card_pool.SR
 		"S":
 			pool_for_reward_3 = npc_card_pool.R + npc_card_pool.SR + npc_card_pool.SR
-			var chance_for_UR = 0.8
+			var chance_for_UR = 0.10
 			randomize()
 			if randf() <= chance_for_UR:
 				pool_for_reward_3 = npc_card_pool.SR + npc_card_pool.UR
